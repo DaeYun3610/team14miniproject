@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(1, 1, 15);
+    color: white;
+}
+
+h1 {
+    width: 300px;
+
+    margin: 10px auto 10px 150px;
+    border-radius: 2px;
+    color: white;
+
+
+}
+
+.mainboard {
+
+
+
+    flex-direction: column;
+    color: black;
+    margin-left: 20px;
+
+    
+
+}
+.link {
+    margin: 10px auto 10px 120px;
+    height: 200px;
+    display: flex;
+
+}
+.link-hub {
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    /* margin: 20px auto auto auto; */
+    background-image: url('https://w7.pngwing.com/pngs/203/560/png-transparent-github-logo-thumbnail.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.link-vel {
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    /* margin: 50px auto auto auto; */
+    background-image: url('https://velog.velcdn.com/images/hyeongjun/post/5fff0129-f29b-4dfa-b28b-f3af0e11ed4f/image.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.image1 {
+    margin: 10px auto 10px 50px;
+    height: 300px;
+    display: flex;
+
+}
+
+.mbti {
+    color: white;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+
+}
+
+.bg-body-tertiary {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
