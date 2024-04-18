@@ -4,7 +4,7 @@ body{
 }
     
 
-    
+   
 
     .teaminfo {
 
@@ -12,11 +12,11 @@ body{
         margin: 20px auto 0px auto;
     }
 
-    .teamrule {
-
+    /* .teamrule { 
+        background-color: gray;
         width: 300px;
         margin: 20px 550px 0px auto;
-    }
+    }*/
 
     .teamcard {
         width: 1500px;
