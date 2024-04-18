@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(219, 223, 229);
+}
+
+h1 {
+    width: 300px;
+
+    margin: 20px 60px 10px auto;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+
+
+}
+
+#logo {
+    background-color: green;
+    margin-left:00px;
+
+}
+
+.mainContents {
+
+
+    width: 700px;
+    flex-direction: column;
+    color: cornflowerblue;
+    margin-left: 20px;
+
+
+
+}
+
+.container {
+    width: 200px;
+    height: 80px;
+
+}
+
+.mbti {
+
+    width: 100px;
+    text-align: center;
+    margin-left: 1170px;
+}
+
+.bg-body-tertiary {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
