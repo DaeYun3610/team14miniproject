@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <title>홍진헌의 자기소개 페이지</title>
+    <style>
+        * {
+            font-family: "Jua", sans-serif;
+
+        }
+
+        .blank {
+            height: 25px;
+        }
+
+        .profile {
+            height: 900px;
+
+
+        }
+
+        .mb-0 {
+            font-size: 50px;
+            color: black
+        }
+
+        .mb-1 {
+            font-size: 20px;
+        }
+
+        .explain {
+            height: 610px;
+            width: auto;
+            background-color: #98FB98;
+        }
+
+        .picture {
+            height: 225px;
+            width: 200px;
+            background-image: url('https://ca.slack-edge.com/T06B9PCLY1E-U06SURJ2VT6-2bfc3a89cae3-512');
+            background-position: center;
+            background-size: cover;
+            border: 1px solid black;
+        }
+
+
+        .picexplain {
+            height: 20px;
+            width: 200px;
+            margin: 0px 0px auto auto
+        }
+
+        .picturexplain {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .bord {
+            height: 225px;
+            width: 200px;
+            margin: auto 50px 50px auto;
+        }
+
+        .link {
+            height: 200px;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        
+        .link-git {
+            height: 50px;
+            width: 50px;
+            align-items: center;
+            /* margin: 20px auto auto auto; */
+            background-image: url('https://w7.pngwing.com/pngs/203/560/png-transparent-github-logo-thumbnail.png');
+            background-position: center;
+            background-size: cover;
+            border-radius: 5px;
+        }
+
+        .link-vel {
+            height: 50px;
+            width: 50px;
+            align-items: center;
+            /* margin: 50px auto auto auto; */
+            background-image: url('https://velog.velcdn.com/images/hyeongjun/post/5fff0129-f29b-4dfa-b28b-f3af0e11ed4f/image.png');
+            background-position: center;
+            background-size: cover;
+            border-radius: 5px;
+        }
+
+        body {
+            background-color: #90EE90;
+        }
+
+        .ex1 {
+            padding: 1px;
+            background-color: white;
+            border-radius: 5px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="blank"></div>
+
+    <div class="profile">
+        <div class="bord">
+            <div class="picture"></div>
+            <div class="picexplain">
+                <div class="picturexplain">
+                    홍진헌
+                </div>
+            </div>
+            <div class="picexplain">
+                <div class="picturexplain">
+                    INTP
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-content shadow">
+            <div class="explain">
+
+                <div class="modal-body p-5">
+
+
+                    <ul class="d-grid gap-4 my-5 list-unstyled small">
+                        <li class="d-flex gap-4">
+
+                            <div class="ex1">
+                                <h5 class="mb-0">나의 소개</h5>
+                                <h6 class="mb-1">내일배움캠프를 듣고있는 node.js6기 홍진헌 입니다!</h6>
+                            </div>
+                        </li>
+                        <li class="d-flex gap-4">
+                            <svg class="bi text-warning flex-shrink-0" width="280" height="48"></svg>
+                            <div class="ex1">
+                                <h5 class="mb-0">나의 장단점</h5>
+                                <h6 class="mb-1">장점:집중하게될 때 확실하게 집중합니다.</h6>
+                                <h7 class="mb-1">단점:집중력이 떨어졌을때, 주의가 산만해지는 편입니다.</h7>
+                            </div>
+                        </li>
+                        <li class="d-flex gap-4">
+                            <div class="ex1">
+                                <h5 class="mb-0">나의 협업스타일</h5>
+                                <h6 class="mb-1">조금은 소극적일지라도 자기주장은 확실히 하는 스타일입니다.</h6>
+                            </div>
+                        </li>
+                        <li class="d-flex gap-4">
+                            <svg class="bi text-warning flex-shrink-0" width="280" height="48"></svg>
+                            <div class="ex1">
+                                <h5 class="mb-0">나를 표현할 수 있는 것</h5>
+                                <h6 class="mb-1">토끼와 거북이에 나오는 '토끼'라고 생각합니다. 집중할때 잘 집중하지만 가끔씩 편히 쉬어야 내가 하고싶은 것을 할 수 있습니다.
+                                </h6>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="link">
+            <a style="position: relative; z-index: 1;" class="link-git" href="https://github.com/MMOO1100"
+            target="_blank"></a>
+            <a style="position: relative; z-index: 1;" class="link-vel" href="https://velog.io/@mmoo81/posts"
+            target="_blank"></a>
+    </div>
+
+
+
+</body>
+
+</html>
