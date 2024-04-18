@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>홍진헌의 자기소개 페이지</title>
     <style>
         * {
@@ -76,7 +77,7 @@
             display: flex;
             flex-direction: row-reverse;
         }
-        
+
         .link-git {
             height: 50px;
             width: 50px;
@@ -99,7 +100,7 @@
             border-radius: 5px;
         }
 
-        .link-main{
+        .link-main {
             height: 50px;
             width: 50px;
             border-radius: 5px;
@@ -108,6 +109,7 @@
             background-position: center;
             background-size: cover;
         }
+
         body {
             background-color: #90EE90;
         }
@@ -117,14 +119,95 @@
             background-color: white;
             border-radius: 5px;
         }
+
+        .setting {
+            height: 100px;
+            width: 100px;
+            top: 0px;
+            left: 0px;
+            position: fixed;
+            background-image: url('https://velog.velcdn.com/images/mmoo81/post/567cd45e-4128-48b0-8af6-3d200da578e6/image.png');
+            background-position: center;
+            background-size: cover;
+            border-radius: 50px;
+            z-index: 4;
+            cursor: pointer;
+        }
+        
+
+        .setbox {
+            width: 100px;
+            height: 100%;
+            top: 0px;
+            left: 0px;
+            position: fixed;
+            background-color: white;
+            border-top-right-radius: 50px;
+            z-index: 3;
+            display: block;
+            display: none;
+            
+        }
+
+        .member {
+            
+            margin-top: 20px;
+            margin-left: 10px;
+            position: relative;
+        }
+
+        .blank2 {
+            height: 100px
+        }
+        .memp{
+            text-align: center;
+        }
+        .img1{
+            width: 80px;
+            height: 80px;
+        }
     </style>
+
+    <script type ="module">
+        $("#setbtn").click(async function () {
+            $('#memberbox').toggle();
+        })
+
+    </script>
 
 
 </head>
 
 <body>
     <div class="blank"></div>
-
+    <div class="setting" id="setbtn"></div>
+    <div class="setbox" id="memberbox">
+        <div class="blank2"></div>
+        <div class="member">
+            <a href="mainpage.html"><img class="img1" src="https://velog.velcdn.com/images/mmoo81/post/9f1749bd-ebf4-4ce1-9e1f-86c3a01abaf0/image.png"></a>
+        </div>
+        <p class="memp">홈</p>
+        <div class="member">
+            <a href="id-1.html"><img class="img1" src="IMG_8614.jpg"></a>
+        </div>
+        <p class="memp">대윤</p>
+        <div class="member">
+            <a href="id-2.html"><img class="img1" src="https://ca.slack-edge.com/T06B9PCLY1E-U06SURJ2VT6-2bfc3a89cae3-512"></a>
+        </div>
+        <p class="memp">진헌</p>
+        <div class="member">    
+            <a href="id-3.html"><img class="img1" src="dong.jpg"></a>
+        </div>
+        <p class="memp">동현</p>
+        <div class="member">
+            <a href="id-4.html"><img class="img1" src="https://ca.slack-edge.com/T06B9PCLY1E-U06RGT1UUDP-fe00d38bb30d-72"></a>
+        </div>
+        <p class="memp">지윤</p>
+        <div class="member">
+            <a href="mainpage.html"><img class="img1" src="https://i.ibb.co/Df1X9s2/Kakao-Talk-20240418-092944048.jpg"></a>
+        </div>
+        <p class="memp">인준</p>
+    </div>
     <div class="profile">
         <div class="bord">
             <div class="picture"></div>
@@ -185,11 +268,11 @@
 
     </div>
     <div class="link">
-            <a style="position: relative; z-index: 1;" class="link-git" href="https://github.com/MMOO1100"
+        <a style="position: relative; z-index: 1;" class="link-git" href="https://github.com/MMOO1100"
             target="_blank"></a>
-            <a style="position: relative; z-index: 1;" class="link-vel" href="https://velog.io/@mmoo81/posts"
+        <a style="position: relative; z-index: 1;" class="link-vel" href="https://velog.io/@mmoo81/posts"
             target="_blank"></a>
-            <a style="position:relative; z-index: 1;" class="link-main" href="mainpage.html" ></a>
+        <a style="position:relative; z-index: 1;" class="link-main" href="mainpage.html"></a>
     </div>
 
 
