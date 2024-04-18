@@ -30,3 +30,24 @@ function makeCard() {
     </div>
 </div>`
 $('#cardcontainer').append(temp_html);}
+
+document.getElementById('enter').addEventListener('keydown', function(e){
+    if(e.keycode === 13 ){
+        let title = $('#title').val();
+        let name = $('#name').val();
+        let txt = $('#txt').val();
+        alert('저장되었습니다! 감사합니다');
+        let temp_html = ` 
+        <div id = "onecard" class="card border-primary mb-3" style="max-width: 18rem;">
+            <div class="card-header">${title}</div>
+            <div class="card-body text-primary">
+                <h5 class="card-title">${name}</h5>
+                <div class="card-text">${txt}</div>
+            </div>
+        </div>
+    </div>`
+    $('#cardcontainer').append(temp_html);
+        
+    }
+
+})
