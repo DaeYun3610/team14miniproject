@@ -26,3 +26,4 @@ fetch(tempUrl).then((response) => response.json()).then((data) => {
     $('#temp').append(temp_html)
 });
 
+
