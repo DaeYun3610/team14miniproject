@@ -1,4 +1,4 @@
-
+//미세먼지
 let miseUrl = "http://spartacodingclub.shop/sparta_api/seoulair"
 fetch(miseUrl).then(res => res.json()).then(data => {
     let mise = data['RealtimeCityAir']['row'][0]['IDEX_MVL']
@@ -12,7 +12,7 @@ fetch(miseUrl).then(res => res.json()).then(data => {
 
     $('#mise').append(mise_html);
 })
-
+//온도
 let tempUrl = "http://spartacodingclub.shop/sparta_api/weather/seoul"
 fetch(tempUrl).then((response) => response.json()).then((data) => {
     let temp = data['temp']
